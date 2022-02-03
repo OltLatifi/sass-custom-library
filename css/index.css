@@ -20,33 +20,23 @@ a {
   text-decoration: none;
 }
 
-h1 {
-  color: #5085f8;
-}
-
-a {
-  color: #78dfb4;
-}
-
-button {
-  color: white;
-  background: #5085f8;
-}
-
-.error {
-  color: #ee9a79;
-  border: solid 2px #ee9a79;
-  border-radius: 15px;
+.card {
+  display: block;
   padding: 0.75rem;
-  margin: 0.75rem;
-  text-align: center;
+  border: 2px #ddd;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.1);
+  max-width: 60rem;
+  margin: 2% auto;
 }
-
-.notification {
-  color: #78dfb4;
-  border: solid 2px #78dfb4;
-  border-radius: 15px;
-  padding: 0.75rem;
-  margin: 0.75rem;
-  text-align: center;
+.card-title {
+  font-size: 1rem;
+  padding-bottom: 0.75rem;
+  font-weight: 700;
+}
+.card-body {
+  font-size: 1rem;
+}
+.card-body a {
+  text-decoration: underline;
+  color: black;
 }
