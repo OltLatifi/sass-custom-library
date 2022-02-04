@@ -1,20 +1,20 @@
 .card{
   display:block;
   padding: $base-padding;
-  border: $base-border-size #ddd;
-  border-radius: $base-radius;
+  border: solid $base-border-size #ddd;
+  border-radius: $base-border-radius;
   box-shadow: $base-box-shadow;
   max-width: 60rem;
   margin: 2% auto;
 
   &-title{
-    font-size: $base-font-size;
+    font-size: $font-size-xl;
     padding-bottom: $base-padding;
     font-weight: 700;
   }
 
   &-body{
-    font-size: $base-font-size;
+    font-size: $font-size-md;
     a{
       text-decoration: underline;
       color: black;

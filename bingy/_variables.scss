@@ -4,6 +4,20 @@ $secondary: #78dfb4;
 $error: #ee9a79;
 $info: #ffc2f7;
 
+// 
+$colors:(
+  'primary': $primary,
+  'secondary': $secondary,
+  'error': $error,
+  'info': $info,
+  'black': black,
+  'white': white,
+  'gray': rgb(212, 212, 212),
+  'green': rgb(68, 224, 47),
+  'orange': rgb(221, 158, 42),
+  'blue': rgb(56, 59, 255)
+);
+
 // spacing
 $base-padding: 0.75rem;
 $base-margin: 0.75rem;
@@ -17,3 +31,9 @@ $base-box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.1);
 
 // font sizes
 $base-font-size: 1rem;
+$font-size-sm: $base-font-size * .75;
+$font-size-md: $base-font-size * 1.1;
+$font-size-sm: $base-font-size * .75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-2xl: $base-font-size * 3;
